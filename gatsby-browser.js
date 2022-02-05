@@ -5,3 +5,8 @@
  */
 
 // You can delete this file if you're not using it
+import "./src/components/layout.scss"
+import "./src/components/layout.module.scss"
+import "@fontsource/manrope"
+import "@fontsource/roboto"
+
