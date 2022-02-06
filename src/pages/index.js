@@ -4,22 +4,13 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import {
-  container,
-  subcontent
-} from "../components/layout.module.scss"
+import Hero from "../components/hero"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <div className={container}>
-      <h3>Ruby Fleener</h3>
-      <h1>User Experience Designer</h1>
-      <div className={subcontent}>
-        <h5>& Aspiring Developer</h5>
-        <h5>Based in the Midwest</h5>
-      </div>
-    </div>
+    <Hero/>
+    
     {/* <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
