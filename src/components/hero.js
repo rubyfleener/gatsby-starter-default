@@ -1,16 +1,23 @@
 import * as React from "react"
-import styles from "../styles/hero.module.scss"
+import "../styles/layout.scss"
+import {
+    container,
+    primaryHeading,
+    tertiaryHeading,
+    subHeading
+} from "../styles/hero.module.scss"
 
 
-const Hero = () => {
+const Hero = ({pageHeading, children}) => {
     return (
-        <div className={styles.container}>
-            <h3>Ruby Fleener</h3>
-            <h1>User Experience Designer</h1>
-            <div className={styles.subcontent}>
-            <h5>& Aspiring Developer</h5>
-            <h5>Based in the Midwest</h5>
+        <div className={container}>
+            <h3 className={tertiaryHeading}>Ruby Fleener</h3>
+            <h1 className={primaryHeading}>{pageHeading}</h1>
+            <div className={subHeading}>
+                <h5>UX/UI Designer</h5>
+                <h5>& Aspiring FEE</h5>
             </div>
+            {children}
         </div>
     )
 }

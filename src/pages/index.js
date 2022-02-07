@@ -9,7 +9,8 @@ import Hero from "../components/hero"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <Hero/>
+    <Hero pageHeading="User Experience Designer">
+    </Hero>
     
     {/* <StaticImage
       src="../images/gatsby-astronaut.png"

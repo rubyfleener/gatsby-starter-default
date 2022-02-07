@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import "../styles/layout.scss"
+import "../styles/_layout.scss"
 import "../styles/hero.module.scss"
 
 

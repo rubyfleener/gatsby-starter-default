@@ -1,9 +1,16 @@
+@use 'layout';
+
 .container {
     text-align: center;
     margin: 0 auto;
 }
 
-.subcontent {
+.primary-heading {
+    color: $magnolia;
+    font-weight: $semi-bold;
+}
+
+.sub-heading {
     display: flex;
     flex-direction: row;
     align-items: center;

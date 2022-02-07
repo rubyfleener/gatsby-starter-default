@@ -5,8 +5,7 @@
  */
 
 // You can delete this file if you're not using it
-import "./src/styles/layout.scss"
-import "./src/styles/hero.module.scss"
+import "./src/styles/_layout.scss"
 import "@fontsource/manrope"
 import "@fontsource/roboto"
 
